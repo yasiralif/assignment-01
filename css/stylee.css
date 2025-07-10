@@ -2,7 +2,11 @@
     /* margin: 0;
     padding: 0; */
 }
-
+/* semibold font  */
+/* .semibold-font{
+    font-weight: 400;
+    opacity: 0.5;
+} */
 
 /* google fonts css link */
 
@@ -13,6 +17,16 @@
   font-style: normal;
 
 
+}
+
+/* Raleway fonts */
+
+
+.raleway-fonts {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 
@@ -47,13 +61,13 @@
     /* padding: 10px; */
     
 }
-
+/* this is button section */
 .btn-1{
     background-color: #4E47FF;
     color: #fff;
     border: none;
     padding:12px  36px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 20px;
 }
 
@@ -75,3 +89,69 @@
     background-image: url(../img/Hero-bg.png);
     background-repeat: no-repeat;
 }
+
+
+/* this is action-section */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 90px;
+}
+
+.action-img{
+    border-radius: 67px;
+}
+
+.action-content p{
+    line-height: 30px;
+    width: 517px;
+    font-weight: 400;
+    opacity: 0.5;
+    font-size: 24px;
+    
+    
+}
+.action-content h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+/* this is user section  */
+.productive{
+    background-color: #e5e7ff;
+    margin: 50px 90px ;
+    border-radius: 10px;
+    height: 306px;
+    text-align: center;
+    /* #e5e7ff */
+    
+}
+.productive-h1{
+    font-size: 25px;
+    color: #252432;
+    padding: 38px;
+}
+
+
+.users p{
+    opacity: 0.4;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+/* user div padding */
+.user-div-padiing h1{
+    font-size: 80px;
+    margin-top: -15px;
+    
+}
+.user-div-padiing p{
+    font-size: 20px;
+    margin-top: -84px;
+}
+
