@@ -297,6 +297,11 @@ body{
     border-radius: 15px;
     padding: 15px 20px;
 }
+
+.feedback-review:hover{
+    box-shadow: 10px 10px 10px #252432;
+    transition: 0.4s;
+}
 .feedback-user img{
     width: 40px;
     height: 40px;
@@ -306,9 +311,20 @@ body{
 .feedback-user{
     display: flex;
    gap: 20px;
+   align-items: center;
 }
 
 .feedback-content h3{
     font-size: 20px;
     font-weight: 700;
+}
+
+
+/* hover effects for all button  */
+
+.btn-hover:hover{
+    background-color: #30336b;
+    
+    box-shadow:10px 10px 10px #252432 ;
+    transition: 0.4s;
 }
