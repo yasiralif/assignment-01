@@ -19,6 +19,11 @@
 
 }
 
+/* secondary colour */
+.secondary-colour{
+    color: #8987A1;
+}
+
 /* Raleway fonts */
 
 
@@ -116,6 +121,8 @@
     font-size: 42px;
 }
 
+
+
 /* this is user section  */
 .productive{
     background-color: #e5e7ff;
@@ -133,9 +140,7 @@
 }
 
 
-.users p{
-    opacity: 0.4;
-}
+
 .users{
     display: flex;
     justify-content: space-around;
@@ -145,13 +150,121 @@
 }
 
 /* user div padding */
-.user-div-padiing h1{
+.productive-itmes h1{
     font-size: 80px;
     margin-top: -15px;
     
 }
-.user-div-padiing p{
+.productive-itmes p{
     font-size: 20px;
     margin-top: -84px;
+    opacity: 0.4;
 }
+
+
+
+/* this is from  */
+.form{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    
+    
+    gap: 40px;
+    margin: 0 90px;
+    
+}
+.form h1{
+    font-size: 70px;
+    text-align: center;
+    width: 40%;
+    
+    
+}
+
+
+
+ .contact-form {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4338ca;
+}
+
+
+/* this is footer section */
+.footer{
+    width: 50%;
+    text-align: center;
+    margin: 50px auto ;
+}
+.footer h1{
+    font-size: 100px;
+    font-family: initial;
+    color: #4E47FF;
+    font-weight: bold;
+}
+
+.footer a{
+    text-decoration: none;
+    gap: 20px;
+    padding: 20px;
+    color: #8987A1;
+    margin-right: 20px;
+    
+}
+
+
+/* this is frame setion */
+.frame{ 
+    width: 80%;
+    height: 696.77;
+    margin: 80px auto;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+}
+.frame p{
+    margin-bottom: 20px;
+}
+.frame a{
+    text-decoration: none;
+    margin-top: 20px;
+   
+}
+.frame h1{
+    font-size:50px;
+    font-weight: bold;
+
+}
+.frame img{
+    border-radius: 45px;
+    margin-top: 40px;
+}
+
+/* this is feedback section */
 
