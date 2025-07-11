@@ -30,17 +30,7 @@ body{
 
 /* Raleway fonts */
 
-
 .raleway-fonts {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-
-
-
-.raleway-raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -66,10 +56,7 @@ body{
     font-weight: bold;
     font-size: 34px;
 }
-.nav-logo{
-    /* padding: 10px; */
-    
-}
+
 /* this is button section */
 .btn-1{
     background-color: #4E47FF;
@@ -127,20 +114,24 @@ body{
 
 
 
-/* this is user section  */
+/* this is Productive Users Section  */
 .productive{
     background-color: #e5e7ff;
     margin: 50px 90px ;
     border-radius: 10px;
     height: 306px;
     text-align: center;
-    /* #e5e7ff */
+    justify-content: center;
+    align-items: center;
+  
     
 }
 .productive-h1{
-    font-size: 25px;
+    font-size: 38px;
     color: #252432;
-    padding: 38px;
+    padding-top: 20px;
+    
+   
 }
 
 
@@ -154,20 +145,28 @@ body{
 }
 
 /* user div padding */
+.productive-itmes{
+    height: 121px;
+}
 .productive-itmes h1{
+    
     font-size: 80px;
-    margin-top: -15px;
+    margin: 0;
+
     
 }
 .productive-itmes p{
     font-size: 20px;
-    margin-top: -84px;
+     
+  margin-top: 6px;
     opacity: 0.4;
 }
 
 
 
-/* this is from  */
+/* this is form  */
+
+
 .form{
     display: flex;
     justify-content: space-between;
@@ -175,7 +174,7 @@ body{
     
     
     gap: 40px;
-    margin: 0 90px;
+    margin: 70px 90px;
     
 }
 .form h1{
@@ -220,11 +219,20 @@ body{
 
 
 /* this is footer section */
+
 .footer{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer-content{
     width: 50%;
     text-align: center;
-    margin: 50px auto ;
+    margin: 0 auto ;
+    
+
 }
+
 .footer h1{
     font-size: 100px;
     font-family: initial;
@@ -243,9 +251,17 @@ body{
 
 
 /* this is frame setion */
+.frame-section{
+    background-color: #FFFF;
+    width: 80%;
+    margin: auto;
+   height: 696.77;
+   padding-bottom: 20px;
+}
+
 .frame{ 
     width: 80%;
-    height: 696.77;
+    /* height: 696.77; */
     margin: 80px auto;
     align-items: center;
     text-align: center;
@@ -271,6 +287,8 @@ body{
 }
 
 /* this is feedback section */
+
+
 .feedback{
     
     margin: 50px 90px;
